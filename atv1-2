@@ -1,0 +1,28 @@
+package classe21_08;
+
+public class Objetocomputador {
+
+	public static void main(String[] args) {
+		Computador computador1 = new Computador();
+		
+		    computador1.setMarca("Dell");
+	        computador1.setModelo("XPS 13");
+	        computador1.setCor("Prata");
+	        computador1.setProcessador("Intel Core i7");
+	        computador1.setMemoriaRAM(16);
+	        computador1.setArmazenamento(512);
+	        computador1.setSistemaOperacional("Windows 11");
+	        
+	        System.out.println("-----Computador -----");
+	        System.out.println("Marca: " + computador1.getMarca());
+	        System.out.println("Modelo: " + computador1.getModelo());
+	        System.out.println("Cor: " + computador1.getCor());
+	        System.out.println("Processador: " + computador1.getProcessador());
+	        System.out.println("Memória RAM: " + computador1.getMemoriaRAM() + " GB");
+	        System.out.println("Armazenamento: " + computador1.getArmazenamento() + " GB");
+	        System.out.println("Sistema Operacional: " + computador1.getSistemaOperacional());
+
+		System.out.println(computador1.ligar());
+	}
+
+}
